@@ -68,38 +68,19 @@
             transform: translateY(-6px);
         }
     }
+    
+    #shop {
+        background-color: salmon;
+        border-radius: 10px;
+        color: white;
+        padding: 5px;
+    }
+    
+    #shop:hover {
+        background-color: darkblue;
+    }
 </style>
 
-<<<<<<< HEAD
-=======
-      #shopnow{
-      background-color:salmon ;
-      border-radius: 20px;
-      color: white;
-      padding:20px;
-      }
-      #shopnow:hover{
-        background-color: darkblue ;
-      }  
-   #bread{
-   animation: cake 3s linear infinite;
-   }
-   @keyframes cake {
-    100%{transform: translateY(-6px);}
-     50%{ transform: translateY(6px);}
-     0%{transform: translateY(-6px);}
-   }
-   #shop{
-      background-color:salmon ;
-      border-radius: 10px;
-      color: white;
-      padding:5px;
-      }
-      #shop:hover{
-        background-color: darkblue ;
-      }  
-    </style>
->>>>>>> e23b4f57e898a261f6361664536263092dc97b5c
 <body>
     <div class="container">
         <div class="row">
@@ -109,20 +90,22 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-<<<<<<< HEAD
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ">
                             <li class="nav-item">
-                                <a style="margin-left: 360px;" class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+                                <a class="nav-link active ms-5" aria-current="page" href="index.html"><b>Home</b></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="about.html"><b>About</b></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#"><b>Services</b></a>
+                                <a class="nav-link active" href="#"><b>Shop</b></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="pages.html"><b>Pages</b></a>
+                                <a class="nav-link active" href="pages.html"><b>Services</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><b>Blog</b></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="#"><b>Contact</b></a>
@@ -130,39 +113,10 @@
                             <li class="nav-item">
                                 <a class="nav-link active" href="#"><b>Reviews</b></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"><b>Blog</b></a>
-                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-=======
-        <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav ">
-            <li class="nav-item">
-              <a  class="nav-link active ms-5" aria-current="page" href="#"><b>Home</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#"><b>About</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#"><b>Shop</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="pages.html"><b>Pages</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#"><b>Blog</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#"><b>Contact</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#"><b>Reviews</b></a>
-            </li>
-          </ul>
->>>>>>> e23b4f57e898a261f6361664536263092dc97b5c
         </div>
     </div>
     <!-- img -->
@@ -225,592 +179,430 @@
             </div>
         </div>
     </div>
-    <!-- Remove the container if you want to extend the Footer to full width. -->
-    <div class="container-fluid">
 
-        <footer class="text-white text-center text-lg-start bg-dark">
-            <!-- Grid container -->
-            <div class="container p-4">
-                <!--Grid row-->
-                <div class="row mt-4">
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">About company</h5>
 
-                        <p>
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.
-                        </p>
-
-                        <p>
-                            Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.
-                        </p>
-
-                        <div class="mt-4">
-                            <!-- Facebook -->
-                            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
-                            <!-- Dribbble -->
-                            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
-                            <!-- Twitter -->
-                            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
-                            <!-- Google + -->
-                            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
-                            <!-- Linkedin -->
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
-
-                        <div class="form-outline form-white mb-4">
-                            <input type="text" id="formControlLg" class="form-control form-control-lg" />
-                            <label class="form-label" for="formControlLg">Search</label>
-                        </div>
-
-                        <ul class="fa-ul" style="margin-left: 1.65em;">
-                            <li class="mb-3">
-                                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Warsaw, 00-967, Poland</span>
-                            </li>
-                            <li class="mb-3">
-                                <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">contact@example.com</span>
-                            </li>
-                            <li class="mb-3">
-                                <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 48 234 567 88</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-                        <h5 class="text-uppercase mb-4">Opening hours</h5>
-
-                        <table class="table text-center text-white">
-                            <tbody class="fw-normal">
-                                <tr>
-                                    <td>Mon - Thu:</td>
-                                    <td>8am - 9pm</td>
-                                </tr>
-                                <tr>
-                                    <td>Fri - Sat:</td>
-                                    <td>8am - 1am</td>
-                                </tr>
-                                <tr>
-                                    <td>Sunday:</td>
-                                    <td>9am - 10pm</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <!--Grid column-->
+    <!-- new work -->
+    <div class="container-fluid  ">
+        <div class="row">
+            <div class="col-md-5  m-5 ms-3 ">
+                <div style="background-image: url(images/banner1.webp); height: 300px; width: 570px;">
+                    <b class=" fs-1  TEXT m-5 me-0">20%</b><b class="text fs-1 ">Sale Off</b>
+                    <h1 class="ms-5" style="font-family: Eras Demi ITC ;">Best Quality<br> Products</h1>
+                    <button id="shopnow" type="button" class="btn btn-outline m-4"><B>SHOP NOW </B> </button>
                 </div>
-                <!--Grid row-->
             </div>
-            <!-- Grid container -->
 
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2020 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+
+            <div class="col-md-5 m-5 ">
+                <div style="background-image: url(images/banner2.webp);  height: 300px; width: 570px;">
+                    <b class=" fs-1  TEXT m-5  me-0">50%</b><b class="text fs-1 ">Sale Off</b>
+                    <h1 class="ms-5" style="font-family: Eras Demi ITC ;">Hot & Spicy <br>pastry</h1>
+                    <button id="shopnow" type="button" class="btn btn-outline m-4"><B>SHOP NOW </B> </button>
+                </div>
             </div>
-            <!-- Copyright -->
-        </footer>
-
-    </div>
-<<<<<<< HEAD
-    <!-- End of .container -->
-
-=======
-</div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/im4.png" class="card-img-top p-2  img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>LEMON TART</h4>
-      <p class="card-text">Some quick example text to build </p>
-    </div>
-</div>
-</div>
-</div>
-</div>
-
-
-<!-- new work -->
-<div class="container-fluid  ">
-  <div class="row">
-    <div class="col-md-5  m-5 ms-3 ">
-      <div style="background-image: url(images/banner1.webp); height: 300px; width: 570px;">
-        <b class=" fs-1  TEXT m-5 me-0">20%</b><b class="text fs-1 ">Sale Off</b> 
-        <h1 class="ms-5"  style="font-family: Eras Demi ITC ;">Best Quality<br> Products</h1>
-        <button  id="shopnow" type="button" class="btn btn-outline m-4"><B>SHOP NOW </B> </button>
-      </div>
-    </div>
-  
-  
-    <div class="col-md-5 m-5 ">
-      <div style="background-image: url(images/banner2.webp);  height: 300px; width: 570px;">
-        <b class=" fs-1  TEXT m-5  me-0">50%</b><b class="text fs-1 ">Sale Off</b> 
-        <h1 class="ms-5" style="font-family: Eras Demi ITC ;">Hot & Spicy <br>pastry</h1>
-        <button  id="shopnow" type="button" class="btn btn-outline m-4"><B>SHOP NOW </B> </button>
-      </div>
-    </div>
-  </div>
-  </div>
-  
-  <!-- new work -->
-  
-
-
-  <!-- next row -->
-
- <div class="container mt-5 text-center">
-  <div class="row">
-   <div class="row text-center"><h1 style="font-family: Castellar;">---Best Sellers---</h1>
-   </div>
-  
-
-    <div class="col-md-3">
-      <div class="card" >
-        <img data-aos="fade-up"
-        data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/gluab jamun.jpg" class="card-img-top p-2   img-fluid " alt="...">
-        <div data-aos="fade-up"
-        data-aos-duration="3000" class="card-body">
-          <h4>GULAB GAMUN</h4>
-          <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
         </div>
     </div>
-  </div>
-  <div class="col-md-3">
-    <div class="card" >
-      <img data-aos="fade-up"
-      data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/jalebi.avif" class="card-img-top p-2   img-fluid " alt="...">
-      <div data-aos="fade-up"
-      data-aos-duration="3000" class="card-body">
-        <h4>YUMMY JALEBI</h4>
-                 <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
 
-      </div>
-  </div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/cupcake.jpg" class="card-img-top p-2   img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>TASTY CUPCAKES</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/applepie.jfif" class="card-img-top p-2  img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>APPLE PIE</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-</div>
-</div>
+    <!-- new work -->
 
 
-<div class="container mt-5 text-center">
-  <div class="row">
-    <div class="col-md-3">
-      <div class="card" >
-        <img data-aos="fade-up"
-        data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/fruitpizza.jfif" class="card-img-top p-2   img-fluid " alt="...">
-        <div data-aos="fade-up"
-        data-aos-duration="3000" class="card-body">
-          <h4>FRUIT PIZZA</h4>
-          <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
 
+    <!-- next row -->
+
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="row text-center">
+                <h1 style="font-family: Castellar;">---Best Sellers---</h1>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/gluab jamun.jpg" class="card-img-top p-2   img-fluid " alt="...">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                        <h4>GULAB GAMUN</h4>
+                        <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/jalebi.avif" class="card-img-top p-2   img-fluid " alt="...">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                        <h4>YUMMY JALEBI</h4>
+                        <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/cupcake.jpg" class="card-img-top p-2   img-fluid " alt="...">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                        <h4>TASTY CUPCAKES</h4>
+                        <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/applepie.jfif" class="card-img-top p-2  img-fluid " alt="...">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                        <h4>APPLE PIE</h4>
+                        <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
-  <div class="col-md-3">
-    <div class="card" >
-      <img data-aos="fade-up"
-      data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/kulfi.jfif" class="card-img-top p-2   img-fluid " alt="...">
-      <div data-aos="fade-up"
-      data-aos-duration="3000" class="card-body">
-        <h4> CARAMEL  KULFI</h4>
-        <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-      </div>
-  </div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/shahitukra.jpg" class="card-img-top p-2   img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>SHAHI TUKRAY</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/stawberry.jfif" class="card-img-top p-2  img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4> DIP STRAWBERRIES</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-</div>
-</div>
-<!-- big div -->
-
-<div class="container-fluid ">
-  <div class="row">
-    <div class="col-md-12 mt-5 text-center ">
-      <div style=" background-color: wheat;">
-        <b class=" fs-1  TEXT  me-0">45%</b><b class="text fs-1 ">Sale Off</b> 
-        <h1 class=""  style="font-family: Eras Demi ITC ;"> <strong >--- On Dairy Products ---</strong> <br>Deal Of The Month</h1>
-        <button  id="shopnow" type="button" class="btn btn-outline m-4"><B>SHOP NOW </B> </button>
-      </div>
-    </div>
-
-<!-- big div -->
 
 
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/fruitpizza.jfif" class="card-img-top p-2   img-fluid " alt="...">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                        <h4>FRUIT PIZZA</h4>
+                        <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/kulfi.jfif" class="card-img-top p-2   img-fluid " alt="...">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                        <h4> CARAMEL KULFI</h4>
+                        <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/shahitukra.jpg" class="card-img-top p-2   img-fluid " alt="...">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                        <h4>SHAHI TUKRAY</h4>
+                        <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
 
-  <!-- next row -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/stawberry.jfif" class="card-img-top p-2  img-fluid " alt="...">
+                    <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                        <h4> DIP STRAWBERRIES</h4>
+                        <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
 
- <div class="container mt-5 text-center">
-  <div class="row">
-   <div class="row text-center"><h1 style="font-family: Castellar;">---NEW PRODUCTS---</h1>
-   </div>
-  
-
-    <div class="col-md-3">
-      <div class="card" >
-        <img data-aos="fade-up"
-        data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/browines.jfif" class="card-img-top p-2   img-fluid " alt="...">
-        <div data-aos="fade-up"
-        data-aos-duration="3000" class="card-body">
-          <h4>RICH BROWINES</h4>
-          <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
-  <div class="col-md-3">
-    <div class="card" >
-      <img data-aos="fade-up"
-      data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/macarons.jfif" class="card-img-top p-2   img-fluid " alt="...">
-      <div data-aos="fade-up"
-      data-aos-duration="3000" class="card-body">
-        <h4>SWEET MACARONS</h4>
-        <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+    <!-- big div -->
 
-      </div>
-  </div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/paties.jpg" class="card-img-top p-2   img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>SPICY PUFF PASTRY</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-12 mt-5 text-center ">
+                <div style=" background-color: wheat;">
+                    <b class=" fs-1  TEXT  me-0">45%</b><b class="text fs-1 ">Sale Off</b>
+                    <h1 class="" style="font-family: Eras Demi ITC ;"> <strong>--- On Dairy Products ---</strong> <br>Deal Of The Month</h1>
+                    <button id="shopnow" type="button" class="btn btn-outline m-4"><B>SHOP NOW </B> </button>
+                </div>
+            </div>
 
-    </div>
-</div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/rassgulla.jfif" class="card-img-top p-2  img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>RASS GULLAH</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-</div>
-</div>
-
-<!-- row -->
-<div class="container mt-5  mb-5 text-center">
-  <div class="row">
-    <div class="col-md-3">
-      <div class="card" >
-        <img data-aos="fade-up"
-        data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/almondtart.jfif" class="card-img-top p-2   img-fluid " alt="...">
-        <div data-aos="fade-up"
-        data-aos-duration="3000" class="card-body">
-          <h4>ALMOND TART</h4>
-          <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-        </div>
-    </div>
-  </div>
-  <div class="col-md-3">
-    <div class="card" >
-      <img data-aos="fade-up"
-      data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/nutsbars.jfif" class="card-img-top p-2   img-fluid " alt="...">
-      <div data-aos="fade-up"
-      data-aos-duration="3000" class="card-body">
-        <h4>RUSTIC NUTS BAR</h4>
-        <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-      </div>
-  </div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/straberycake.jfif" class="card-img-top p-2   img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>STRAWBERRY CAKE</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/barfi.jfif" class="card-img-top p-2  img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>DELIGHTFUL BARFI</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-</div>
-</div>
-
-
- <!-- next row -->
-
- <div class="container mt-5 mb-5 text-center">
-  <div class="row">
-   <div class="row text-center"><h1 style="font-family: Castellar;">---GIFT HAMPERS---</h1>
-   </div>
-  
-
-    <div class="col-md-3">
-      <div class="card" >
-        <img data-aos="fade-up"
-        data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/candyjars.jpg" class="card-img-top p-2   img-fluid " alt="...">
-        <div data-aos="fade-up"
-        data-aos-duration="3000" class="card-body">
-          <h4>PERSONAL CANDY JAR</h4>
-          <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-        </div>
-    </div>
-  </div>
-  <div class="col-md-3">
-    <div class="card" >
-      <img data-aos="fade-up"
-      data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/wedding.jpg" class="card-img-top p-2   img-fluid " alt="...">
-      <div data-aos="fade-up"
-      data-aos-duration="3000" class="card-body">
-        <h4>WEDDING BASKET</h4>
-        <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-      </div>
-  </div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/birthday.jfif" class="card-img-top p-2   img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>BIRTHDAY GIFT BOX</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-<div class="col-md-3">
-  <div class="card" >
-    <img data-aos="fade-up"
-    data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/family box.jfif" class="card-img-top p-2  img-fluid " alt="...">
-    <div data-aos="fade-up"
-    data-aos-duration="3000" class="card-body">
-      <h4>FAMILY PACK</h4>
-      <button  data-aos="fade-up"data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
-
-    </div>
-</div>
-</div>
-</div>
-</div>
-
-
-<hr>
-
-<div class="container-fluid mb-4 mt-4  ">
-  <div class="row" >
-    <div class="col-md-4"  >
-      <img src="images/shipping1.webp" alt=""><strong class="m-3">FREE SHIPPING</strong>
-    </div>
-    <div class="col-md-4">
-      <img src="images/shipping2.webp" alt=""><strong class="m-3">CARD PAYMENTS</strong>
-    </div>
-    <div class="col-md-4">
-      <img src="images/shipping3.webp" alt=""><strong class="m-3">EASY RETURNS</strong>
-    </div>
-  </div>
-  </div>
-  
-<hr>
-<!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container-fluid">
-
-  <footer class="text-white text-center text-lg-start bg-dark">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!--Grid row-->
-      <div class="row mt-4">
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">About Us</h5>
-
-          <p>
-           Indulge in the sweet life at <b  class="i">BUCKER</b>, Where every treat is a delight for the senses.From clasic confections to inovative creations, Our sweets are crafted with LOVE and CARE to bring a SMILE on your face.
-          </p>
-
-          <p>
-           Taste the magical sweets from <b class="i">BUCKER</b>, And share the JOY witn everyone.
-          </p>
-
-          <div class="mt-4">
-            <!-- Facebook -->
-            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
-            <!-- Dribbble -->
-            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
-            <!-- Twitter -->
-            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
-            <!-- Google + -->
-            <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
-            <!-- Linkedin -->
-          </div>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
-
-          <div class="form-outline form-white mb-4">
-            <input placeholder="Search something here" type="text" id="formControlLg" class="form-control form-control-lg" />
-            <label class="form-label" for="formControlLg">Search</label>
-          </div>
-
-          <ul class="fa-ul" style="margin-left: 1.65em;">
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Defence Phase-2</span>
-            </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">contact@bucker.com</span>
-            </li>
-            <li class="mb-3">
-              <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+923456789054</span>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4">Opening hours</h5>
-
-          <table class="table text-center text-white">
-            <tbody class="fw-normal">
-              <tr>
-                <td>Mon - Thu:</td>
-                <td>8am - 9pm</td>
-              </tr>
-              <tr>
-                <td>Fri - Sat:</td>
-                <td>8am - 1am</td>
-              </tr>
-              <tr>
-                <td>Sunday:</td>
-                <td>9am - 10pm</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-    </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">bucker.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-
-</div>
-<!-- End of .container -->
->>>>>>> e23b4f57e898a261f6361664536263092dc97b5c
-
-
-
-  
+            <!-- big div -->
 
 
 
 
 
+            <!-- next row -->
 
-<<<<<<< HEAD
-
-
-
-
-
-
-
+            <div class="container mt-5 text-center">
+                <div class="row">
+                    <div class="row text-center">
+                        <h1 style="font-family: Castellar;">---NEW PRODUCTS---</h1>
+                    </div>
 
 
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/browines.jfif" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>RICH BROWINES</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
 
-=======
->>>>>>> e23b4f57e898a261f6361664536263092dc97b5c
-    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="jquery-3.7.1.min.js"></script>
-    <script src="scrollup-master/dist/jquery.scrollUp.min.js"></script>
-    <script src="index.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/macarons.jfif" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>SWEET MACARONS</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/paties.jpg" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>SPICY PUFF PASTRY</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/rassgulla.jfif" class="card-img-top p-2  img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>RASS GULLAH</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- row -->
+            <div class="container mt-5  mb-5 text-center">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/almondtart.jfif" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>ALMOND TART</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/nutsbars.jfif" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>RUSTIC NUTS BAR</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/straberycake.jfif" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>STRAWBERRY CAKE</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/barfi.jfif" class="card-img-top p-2  img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>DELIGHTFUL BARFI</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- next row -->
+
+            <div class="container mt-5 mb-5 text-center">
+                <div class="row">
+                    <div class="row text-center">
+                        <h1 style="font-family: Castellar;">---GIFT HAMPERS---</h1>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/candyjars.jpg" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>PERSONAL CANDY JAR</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/wedding.jpg" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>WEDDING BASKET</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/birthday.jfif" class="card-img-top p-2   img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>BIRTHDAY GIFT BOX</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img data-aos="fade-up" data-aos-duration="3000" style="height: 200px;width:400px ;" src="images/family box.jfif" class="card-img-top p-2  img-fluid " alt="...">
+                            <div data-aos="fade-up" data-aos-duration="3000" class="card-body">
+                                <h4>FAMILY PACK</h4>
+                                <button data-aos="fade-up" data-aos-duration="3000" id="shop" type="button" class="btn btn-outline"><B>SHOP NOW </B> </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <hr>
+
+            <div class="container-fluid mb-4 mt-4  ">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/shipping1.webp" alt=""><strong class="m-3">FREE SHIPPING</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/shipping2.webp" alt=""><strong class="m-3">CARD PAYMENTS</strong>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/shipping3.webp" alt=""><strong class="m-3">EASY RETURNS</strong>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <!-- Remove the container if you want to extend the Footer to full width. -->
+            <div class="container-fluid">
+
+                <footer class="text-white text-center text-lg-start bg-dark">
+                    <!-- Grid container -->
+                    <div class="container p-4">
+                        <!--Grid row-->
+                        <div class="row mt-4">
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                                <h5 class="text-uppercase mb-4">About Us</h5>
+
+                                <p>
+                                    Indulge in the sweet life at <b class="i">BUCKER</b>, Where every treat is a delight for the senses.From clasic confections to inovative creations, Our sweets are crafted with LOVE and CARE to bring a SMILE on your
+                                    face.
+                                </p>
+
+                                <p>
+                                    Taste the magical sweets from <b class="i">BUCKER</b>, And share the JOY witn everyone.
+                                </p>
+
+                                <div class="mt-4">
+                                    <!-- Facebook -->
+                                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-facebook-f"></i></a>
+                                    <!-- Dribbble -->
+                                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-dribbble"></i></a>
+                                    <!-- Twitter -->
+                                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-twitter"></i></a>
+                                    <!-- Google + -->
+                                    <a type="button" class="btn btn-floating btn-light btn-lg"><i class="fab fa-google-plus-g"></i></a>
+                                    <!-- Linkedin -->
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+                                <div class="form-outline form-white mb-4">
+                                    <input placeholder="Search something here" type="text" id="formControlLg" class="form-control form-control-lg" />
+                                    <label class="form-label" for="formControlLg">Search</label>
+                                </div>
+
+                                <ul class="fa-ul" style="margin-left: 1.65em;">
+                                    <li class="mb-3">
+                                        <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Defence Phase-2</span>
+                                    </li>
+                                    <li class="mb-3">
+                                        <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">contact@bucker.com</span>
+                                    </li>
+                                    <li class="mb-3">
+                                        <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+923456789054</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                                <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+                                <table class="table text-center text-white">
+                                    <tbody class="fw-normal">
+                                        <tr>
+                                            <td>Mon - Thu:</td>
+                                            <td>8am - 9pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fri - Sat:</td>
+                                            <td>8am - 1am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sunday:</td>
+                                            <td>9am - 10pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+                    </div>
+                    <!-- Grid container -->
+
+                    <!-- Copyright -->
+                    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                        © 2020 Copyright:
+                        <a class="text-white" href="https://mdbootstrap.com/">bucker.com</a>
+                    </div>
+                    <!-- Copyright -->
+                </footer>
+
+            </div>
+            <!-- End of .container -->
+
+
+
+
+
+
+
+
+
+
+            <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
+            <script src="jquery-3.7.1.min.js"></script>
+            <script src="scrollup-master/dist/jquery.scrollUp.min.js"></script>
+            <script src="index.js"></script>
 </body>
 
 </html>
