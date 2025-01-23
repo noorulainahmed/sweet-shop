@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="scrollup-master/dist/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+
 </head>
 <style>
     .heading1 {
@@ -27,10 +32,10 @@
         margin-top: 100px;
         margin-left: 15px;
     }
-    
-    .main1 {
-        text-align: center;
+    .i {
+        color: salmon;
     }
+
     
     .navbar {
         background-color: white;
@@ -41,70 +46,93 @@
         color: black;
     }
     
-    .head1 {
-        background: linear-gradient(pink, orange);
-    }
+  
 </style>
 <link rel="stylesheet" href="boot/css/bootstrap.min.css">
+    <link rel="stylesheet" href="scrollup-master/dist/">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 
 <body>
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light ">
-                <div class="container-fluid">
-                    <a class="navbar-brand  " style="background-color:#000066; border-bottom-right-radius:30px;height: 100px;margin-top:10px;" href="#"><img src="logo.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand  " style="background-color:#000066; border-bottom-right-radius:30px;height: 100px;margin-top:10px;" href="#"><img src="logo.png" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                    aria-controls="staticBackdrop" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+                    aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="staticBackdropLabel">BUCKER</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+
+
+                        <ul class="navbar-nav mx-auto">
                             <li class="nav-item">
-                                <a style="margin-left: 200px;" class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+                                <a  class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="about.html"><b>About</b></a>
                             </li>
+                            
                             <li class="nav-item">
-                                <a class="nav-link active" href="pages.html"><b>services</b></a>
+                                <a class="nav-link active" href="shop.html"><b>Shop</b></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#"><b>Shop</b></a>
+                                <a class="nav-link active" href="pages.html"><b>Pages</b></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" href="#"><b>Blogs</b></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#"><b>Reviews</b></a>
-                            </li>
+                            
                             <li class="nav-item">
                                 <a class="nav-link active" href="#"><b>Contact</b></a>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="reviews.html"><b>Reviews</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="reviews.html"><b>Gallery</b></a>
+                            </li> 
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row p-5 mb-0" style="background-color: wheat;">
+            <div class="col-md-12">
+                <div class="pages">
+                    <h1 class="heading " style="font-size: 80px;">ABOUT US</h1>
+                    <a style="text-decoration: none;" href="index.html"><b class="Home text-dark "style="font-size:30px;">Home</b></a><b style="color: salmon;font-size: 30px;">//ABOUT</b>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <div class="container mt-5 head1">
-        <h1 class="heading1">About Us</h1>
-        <p>A bakery is an establishment that produces and sells flour-based baked goods made in an oven such as bread, cookies, cakes, doughnuts, bagels, pastries, and pies.[1] Some retail bakeries are also categorized as cafés, serving coffee and tea to
-            customers who wish to consume the baked goods on the premises. In some countries, a distinction is made between bakeries, which primarily sell breads, and pâtisseries, which primarily sell sweet baked goods.</p>
-    </div>
-    <video width="100%" height="50%" controls>
+   <div class="container-fluid">
+    <div class="row">
+    <video controls>
         <source src="Amazing Cake Decorating Technique _ Making a Variety of Cakes - Korean Street Food.mp4" type="video/mp4">
-       
-      Your browser does not support the video tag.
-      </video>
-
+       </video>
+    </div>
+    </div>
     <div class="container mt-5">
 
         <div class="row">
             <div class="col-md-6">
                 <div class="para1 ">
-                    <h3>Our vision</h3>
-                    <p>
+                    <h3 style=" color: salmon;">Our Vision</h3>
+                    <p style="text-align: justify;">
 
                         We aim to touch the hearts of our customers by delivering high-quality baked goods that are crafted with care, innovation, and a commitment to perfection. We strive to take our customers on a delicious journey with our diverse range of homemade breads
                         and pastries, all made with meticulous attention to quality.
@@ -114,9 +142,9 @@
             </div>
             <div class="col-md-6">
                 <div class="para2 ">
-                    <h3 style="text-align: left;; ">Our mission</h3>
+                    <h3 style="color: salmon; ">Our Mission</h3>
 
-                    <p>
+                    <p style="text-align: justify;">
 
                         The bakery's mission is to serve the community by providing delicious, freshly-baked goods made with love. In addition, we strive to create a warm and inviting environment where everyone feels at home and giving our customers highly hospitable and friendly
                         shopping atmosphere for delightful shopping experience every time.
@@ -125,16 +153,17 @@
             </div>
         </div>
     </div>
-
-    <div class="box1 ">
+<div class="container">
+    <div class="row">
         <img src="main2.jpg " alt=" " style="height: 200px; width: 1300px; ">
 
-    </div><br>
+    </div>
+</div>
     <div class="container">
 
-        <div class="main1 ">
-            <h3>Team Member</h3>
-            <p>In its simplest form, teamwork occurs when a group of people work together to successfully complete a task. More broadly, it also relates to the cohesiveness of a team, their ability to create a positive working atmosphere and how they recognise
+        <div class="row ">
+            <h3 style="color: salmon;">Team Member</h3>
+            <p style="text-align: justify;">In its simplest form, teamwork occurs when a group of people work together to successfully complete a task. More broadly, it also relates to the cohesiveness of a team, their ability to create a positive working atmosphere and how they recognise
                 the strengths and skills that each team member brings.
             </p>
 
@@ -152,8 +181,9 @@
             </div>
         </div>
     </div>
-    <div class="container  mt-5">
 
+
+    <div class="container  mt-5">
         <div class="row mt-5">
             <div class="col-md-4 text-center"><img src="star.jpg" alt="" style="border-radius:100%;  width: 100%;"></div>
             <div class="col-md-8 mt-5">
@@ -166,7 +196,7 @@
                         <p>customer
 
 
-                            </p3>
+                            </p>
                     </h4>
                     <p>I had an amazing experience with this company! The customer service was top-notch, and the product exceeded my expectations. I highly recommend them to anyone looking for quality products and excellent service.</p>
                 </div>
@@ -174,7 +204,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="row mt-5 text-center">
+        <div class="row mt-5 mb-5 text-center">
             <div class="col-md-3">
                 <div class="card ">
                     <img src="pastry.webp" class="card-img-top " alt="...">
@@ -217,6 +247,7 @@
             </div>
         </div>
     </div>
+
     <!-- Remove the container if you want to extend the Footer to full width. -->
     <div class="container-fluid">
 
@@ -315,8 +346,13 @@
 
 
 
-    <script src="boot/js/bootstrap.bundle.min.js ">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="scrollup-master/dist/jquery.scrollUp.min.js"></script>
+    <script src="index.js"></script>
+    
 </body>
 
 </html>
